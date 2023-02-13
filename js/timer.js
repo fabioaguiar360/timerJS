@@ -24,6 +24,7 @@ function startTimer(){
 }
 
 startTimerBtn.addEventListener('click', function(event){
+    clearInterval(timer);
     timerDisplay.className = '';
     startTimer();
 });

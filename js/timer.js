@@ -4,6 +4,7 @@ const pauseTimerBtn = document.querySelector('#pauseTimerBtn');
 const clearTimerBtn = document.querySelector('#clearTimerBtn');
 let seconds = 0;
 let timer;
+let interval;
 
 function getTimeFromSeconds(seconds){
     // Date receve like paramenter miliseconds
